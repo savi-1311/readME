@@ -1,0 +1,10 @@
+{
+	"name": "ReadME",
+	"description": "Your reading list, the efficient way!",
+	"version": "0.1",
+	"manifest_version": 2,
+	"browser_action":{
+		"default_icon": "clip.png",
+		"default_popup": "popup.html" 
+	}
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Security-Policy" content="script-src 'self' 'sha256-WOdSzz11/3cpqOdrm89LBL2UPwEU9EhbDtMy2OciEhs='">
+	<title>Notes</title>
+	<link rel="stylesheet" href="bootstrap.css" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css" crossorigin="anonymous">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #6E57E0">
+		<a class="navbar-brand" id="title">ReadME</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+		aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<img src="top.svg" width="400px">
+		<form class="form-inline my-2 my-lg-0">
+			<input class="form-control mr-sm-2" id="searchText" type="search" placeholder="Search" aria-label="Search">
+			<button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search List</button>
+		</form>
+	</div>
+</nav>
+
+<div class="container my-3">
+	<div class="card bg-dark text-white">
+		<div class="card-body">
+			<h5 class="card-title"><b>Add a Title</b></h5>
+			<div class="form-group">
+				<textarea class="form-control" id="addTxt" rows="3"></textarea><br>
+				<img src="clip.png">      <input type="text" class="form-control" id="addLink"></input>
+			</div>
+
+			<a class="btn btn-primary" id="addBtn">Done</a>
+			<a class="btn btn-danger" id="removeBtn">Clear All</a>
+		</div>
+	</div>
+	<br>
+	<hr>
+	<div id="notes" class="row container-fluid">
+	</div>
+</div>
+<div class="footer">
+		Made with ❤️️ by <a href="https://github.com/savi-1311">Shambhavi Shandilya</a>
+</div>
+
+<script src="jquery.js"
+crossorigin="anonymous"></script>
+<script src="popper.js"
+crossorigin="anonymous"></script>
+<script src="bootstrap.js"
+crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</body>
+
+</html>
